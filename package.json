@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "koa": "^2.5.3",
     "koa-json": "^2.0.2",
