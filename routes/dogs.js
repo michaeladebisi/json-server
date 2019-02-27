@@ -18,8 +18,8 @@ module.exports = ({ dogRouter }) => {
     let value1Text = value1.text;
     let value2Text = value2.text
     ctx.body = {
-        value1: value1Text,
-        value2: value2Text
+        value11: value1Text,
+        value12: value2Text
      }
     console.log(value1Text,'\n\n',  value2Text);
     return [value1Text, value2Text];
