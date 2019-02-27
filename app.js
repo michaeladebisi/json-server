@@ -36,5 +36,5 @@ app.use(dogRouter.routes());
 app.use(dogRouter.allowedMethods());
 
 // tell the server to listen to events on a specific port
-const server = app.listen(3000);
+const server = app.listen(80);
 module.exports = server;
