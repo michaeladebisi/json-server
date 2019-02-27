@@ -20,7 +20,7 @@
   "scripts": {
     "test": "jest --watchAll",
     "dev": "nodemon --inspect app.js",
-    "start": "node --inspect app.js "
+    "start": "node app.js "
   },
   "repository": {
     "type": "git",
